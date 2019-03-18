@@ -14,7 +14,7 @@ var path = require('path');
 var app = express();
 
 app.get("/", function(req,res){
-  res.send("aloha");
+  res.send("bai");
 });
 
 app.get("/amor", function(req,res){

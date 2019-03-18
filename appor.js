@@ -21,6 +21,11 @@ app.get("/amor", function(req,res){
   res.sendFile(path.join(__dirname + '/index.html'))
 });
 
+app.get("/prueba01", function(req,res){
+  res.sendFile(path.join(__dirname + '/indexprueba01.html'))
+});
+
+
 var server = app.listen(6543, function(){
   console.log("Server listening on port 6543.")
 });
